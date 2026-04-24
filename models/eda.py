@@ -27,7 +27,7 @@ plt.xticks(rotation=45)
 plt.show()
 
 # -----------------------------
-# 3. HISTOGRAM (Temperature)
+# 3. HISTOGRAM 
 # -----------------------------
 plt.figure(figsize=(8,5))
 plt.hist(df['temperature'], bins=20)
