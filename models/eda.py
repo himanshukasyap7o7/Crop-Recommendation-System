@@ -16,7 +16,7 @@ plt.title("Feature Correlation Heatmap")
 plt.show()
 
 # -----------------------------
-# 2. BAR CHART (Crop Count)
+# 2. BAR CHART 
 # -----------------------------
 plt.figure(figsize=(12,6))
 df['label'].value_counts().plot(kind='bar')
